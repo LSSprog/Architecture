@@ -1,4 +1,4 @@
-package hw.lss.prototype;
+package hw.lss.hw3.prototype;
 
 public abstract class Shoes {
     public String name;

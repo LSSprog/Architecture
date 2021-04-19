@@ -1,8 +1,7 @@
-package hw.lss.builder;
+package hw.lss.hw3.builder;
 
-import hw.lss.builder.params.Material;
-import hw.lss.builder.params.Size;
-import hw.lss.builder.params.Type;
+import hw.lss.hw3.builder.params.Material;
+import hw.lss.hw3.builder.params.Size;
 
 public class MainApp {
     public static void main(String[] args) {

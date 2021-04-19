@@ -1,9 +1,9 @@
-package hw.lss.builder;
+package hw.lss.hw3.builder;
 
-import hw.lss.builder.params.Heel;
-import hw.lss.builder.params.Material;
-import hw.lss.builder.params.Size;
-import hw.lss.builder.params.Type;
+import hw.lss.hw3.builder.params.Heel;
+import hw.lss.hw3.builder.params.Material;
+import hw.lss.hw3.builder.params.Size;
+import hw.lss.hw3.builder.params.Type;
 
 public class Shoes {
     private Type type;

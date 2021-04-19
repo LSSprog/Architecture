@@ -1,4 +1,4 @@
-package hw.lss.prototype;
+package hw.lss.hw3.prototype;
 
 public class WomenShoes extends Shoes implements Cloneable{
     public int heel;

@@ -1,4 +1,4 @@
-package hw.lss.prototype;
+package hw.lss.hw3.prototype;
 
 import java.util.ArrayList;
 import java.util.Arrays;

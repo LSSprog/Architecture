@@ -1,4 +1,4 @@
-package hw.lss.builder.params;
+package hw.lss.hw3.builder.params;
 
 public class Type {
     public String type;
