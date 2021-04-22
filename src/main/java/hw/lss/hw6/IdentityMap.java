@@ -15,6 +15,7 @@ public class IdentityMap {
 
     public Product getProductFromMap(Integer id){
         if (productMap.containsKey(id)) {
+            System.out.println("get from cash");
             return productMap.get(id);
         }
         return null;

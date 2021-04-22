@@ -27,12 +27,14 @@ public class MainApp {
 
         System.out.println(getProduct(1, productMapper, identityMap));
         System.out.println(getProduct(3, productMapper, identityMap));
+        System.out.println(getProduct(1, productMapper, identityMap));
+
     }
 
     private static Product getProduct(int id, ProductMapper mapper, IdentityMap cash) {
         Product product = cash.getProductFromMap(id);
         if (product == null) {
-            product = mapper.getProductById(1);
+            product = mapper.getProductById(id);
             cash.addProductToMap(product);
         }
         return product;

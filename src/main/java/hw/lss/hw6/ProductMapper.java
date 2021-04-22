@@ -17,7 +17,7 @@ public class ProductMapper {
         PreparedStatement statement = null;
         try {
             statement = connection.prepareStatement
-                    ("SELECT id, title, price FROM product_tbl WHERE product_id = ?");
+                    ("SELECT * FROM product_tbl WHERE product_id = ?");
         statement.setInt(1, id);
         statement.execute();
         ResultSet resultSet = statement.getResultSet();
@@ -26,6 +26,7 @@ public class ProductMapper {
         String title = resultSet.getString(2);
         Integer price = resultSet.getInt(3);
         Product product = new Product(productId, title, price);
+        System.out.println("get from base");
         return product;
         } catch (SQLException throwables) {
             throwables.printStackTrace();
